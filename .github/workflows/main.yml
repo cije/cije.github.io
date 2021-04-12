@@ -1,0 +1,14 @@
+- name: GitHub Project Automation+
+  # You may pin to the exact commit or the version.
+  # uses: alex-page/github-project-automation-plus@e930d2bbdb89d76d29169f8f5544cd12554fc08e
+  uses: alex-page/github-project-automation-plus@v0.5.1
+  with:
+    # The GH_TOKEN secret can be passed in using {{ secrets.GH_TOKEN }}
+    repo-token: 
+    # The name of the GitHub Project
+    project: 
+    # The name of the column to move the issue or pull request to
+    column: 
+    # Can be `update`, `delete` or `archive`. This determines the type of the action to be performed on the card
+
+    action: # optional, default is update
